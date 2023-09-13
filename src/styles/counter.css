@@ -1,0 +1,96 @@
+.clock-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.counter-title {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.clock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    color: white;
+}
+
+.time {
+    border: solid 1px red;
+    padding: 20px;
+    border-radius: 5px;
+    width: 750px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.count {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+}
+
+.days-count, .hours-count, .minutes-count, .seconds-count {
+    font-size: 70px;
+    font-weight: bold;
+    width: 100px;
+    text-align: center;
+}
+
+.days-header, .hours-header, .minutes-header, .seconds-header {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+
+.seconds-container {
+    width: 200px; /* Set a fixed width for the seconds container */
+}
+
+@media (max-width: 900px) {
+    .clock {
+        flex-direction: column;
+    }
+    .time {
+        width: 100%;
+    }
+    .count {
+        margin: 0;
+    }
+    .days-count, .hours-count, .minutes-count, .seconds-count {
+        font-size: 50px;
+    }
+    .days-header, .hours-header, .minutes-header, .seconds-header {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 500px) {
+    .days-count, .hours-count, .minutes-count, .seconds-count {
+        font-size: 30px;
+    }
+    .days-header, .hours-header, .minutes-header, .seconds-header {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 419px) {
+    .counter-title {
+        font-size: 40px;
+    }
+    .clock {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
