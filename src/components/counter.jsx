@@ -15,7 +15,7 @@ const Tracker = () => {
     return () => {
       clearInterval(interval);
     };
-  }, []);
+  }, [setTimeElapsed]);
 
   const updateTimeElapsed = () => {
     const currentTime = new Date();
