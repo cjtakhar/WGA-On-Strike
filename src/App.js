@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Routes>
-          <Route path="/WGA" element={< Home />} />
+          <Route path="/WGA-On-Strike" element={< Home />} />
         </Routes>
       </BrowserRouter>
     </div>
