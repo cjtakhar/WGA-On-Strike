@@ -15,6 +15,10 @@
     color: white;
 }
 
+.strike {
+    color: red;
+}
+
 .clock {
     display: flex;
     justify-content: center;

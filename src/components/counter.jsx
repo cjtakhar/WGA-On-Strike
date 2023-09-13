@@ -36,7 +36,7 @@ const Tracker = () => {
 
   return (
     <div className="clock-container">
-      <h1 className="counter-title">WGA ON STRIKE</h1>
+      <h1 className="counter-title">WGA ON <span className="strike">STRIKE</span></h1>
       <div className="clock">
         <div className="time">
           <div className="count">
