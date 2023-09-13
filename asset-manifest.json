@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/WGA-On-Strike/static/css/main.ae6ca555.css",
-    "main.js": "/WGA-On-Strike/static/js/main.a9ddfb34.js",
+    "main.css": "/WGA-On-Strike/static/css/main.b179d2d2.css",
+    "main.js": "/WGA-On-Strike/static/js/main.e7ee1237.js",
     "static/js/787.20e6e59a.chunk.js": "/WGA-On-Strike/static/js/787.20e6e59a.chunk.js",
     "index.html": "/WGA-On-Strike/index.html",
-    "main.ae6ca555.css.map": "/WGA-On-Strike/static/css/main.ae6ca555.css.map",
-    "main.a9ddfb34.js.map": "/WGA-On-Strike/static/js/main.a9ddfb34.js.map",
+    "main.b179d2d2.css.map": "/WGA-On-Strike/static/css/main.b179d2d2.css.map",
+    "main.e7ee1237.js.map": "/WGA-On-Strike/static/js/main.e7ee1237.js.map",
     "787.20e6e59a.chunk.js.map": "/WGA-On-Strike/static/js/787.20e6e59a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ae6ca555.css",
-    "static/js/main.a9ddfb34.js"
+    "static/css/main.b179d2d2.css",
+    "static/js/main.e7ee1237.js"
   ]
 }
